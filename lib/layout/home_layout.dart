@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../pages/browse/browse_view.dart';
 import '../pages/home/home_view.dart';
-import '../pages/search/search_view.dart';
 
 class HomeLayout extends StatefulWidget {
   static const String routeName = 'home-layout';
@@ -18,7 +17,6 @@ class _HomeLayoutState extends State<HomeLayout> {
 
   List<Widget> views = [
     HomeView(),
-    SearchView(),
     BrowseView(),
   ];
 
